@@ -9,61 +9,67 @@
 <body>
     <header>
         <div>
-            <button>Hamburger menu</button>
+            <button class="icon-btn">
+                <svg>
+                    <path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path>
+                </svg>
+            </button>
             <h1>YouTube</h1>
         </div>
         <div>
             <input type="text" placeholder="Search" />
-            <button>Search</button>
-            <button>Audio Search</button>
+            <button class="icon-btn">Search</button>
+            <button class="icon-btn">Audio Search</button>
         </div>
         <div>
-            <button>Video</button>
-            <button>Squares</button>
-            <button>Bell</button>
-            <button>Profile</button>
+            <button class="icon-btn">Video</button>
+            <button class="icon-btn">Squares</button>
+            <button class="icon-btn">Bell</button>
+            <button class="icon-btn">Profile</button>
         </div>
     </header>
-    <main>
-        <iframe></iframe>
-        <h2>Video Title</h2>
-        <div>
-            <span># views - Date</span>
+    <div id="content-wrapper">
+        <main>
+            <iframe></iframe>
+            <h2>Video Title</h2>
             <div>
-                <button>Like #</button>
-                <button>Dislike</button>
-                <button>Share</button>
-                <button>Save</button>
-                <button>Dots</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="#" alt=""></a>
-                <a href="#">Channel Name</a>
-                <span># subscribers</span>
-            </div>
-            <button>SUBSCRIBE</button>
-            <p>Video description.</p>
-        </div>
-        <section>
-            <h3># Comments</h3>
-            <button>SORT BY</button>
-            <div>
-                <img>
-                <input type="text" placeholder="Add a public comment..."/>
+                <span># views - Date</span>
+                <div>
+                    <button>Like #</button>
+                    <button>Dislike</button>
+                    <button>Share</button>
+                    <button>Save</button>
+                    <button>Dots</button>
+                </div>
             </div>
             <div>
-                <img>
-                <span>blank ago</span>
-                <p>Comment text</p>
+                <div>
+                    <a href="#"><img src="#" alt=""></a>
+                    <a href="#">Channel Name</a>
+                    <span># subscribers</span>
+                </div>
+                <button>SUBSCRIBE</button>
+                <p>Video description.</p>
             </div>
-            <div>
-                <img>
-                <span>blank ago</span>
-                <p>Comment text</p>
-            </div>
-        </section>
+            <section>
+                <h3># Comments</h3>
+                <button>SORT BY</button>
+                <div>
+                    <img>
+                    <input type="text" placeholder="Add a public comment..."/>
+                </div>
+                <div>
+                    <img>
+                    <span>blank ago</span>
+                    <p>Comment text</p>
+                </div>
+                <div>
+                    <img>
+                    <span>blank ago</span>
+                    <p>Comment text</p>
+                </div>
+            </section>
+        </main>
         <aside>
             <div>
                 <button>All</button>
@@ -94,6 +100,6 @@
                 </div>
             </article>
         </aside>
-    </main>
+    </div>
 </body>
 </html>

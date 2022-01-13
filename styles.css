@@ -51,3 +51,43 @@ table {
 
 /* Styles */
 
+header {
+	width: 100vw;
+	background-color: pink;
+	display: flex;
+	justify-content: space-between;
+	height: 8vh;
+}
+
+header div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#content-wrapper {
+	display: flex;
+	height: 92vh;
+}
+
+main {
+	background-color: lightblue;
+	width: 65vw;
+}
+
+aside {
+	background-color: lightgreen;
+	width: 35vw;
+}
+
+.icon-btn {
+	background: none;
+	width: 40px;
+	height: 40px;
+	padding: 6px;
+}
+
+.icon-btn svg {
+	width: 30px;
+	height: 30px;
+}
