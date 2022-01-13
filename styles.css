@@ -114,13 +114,17 @@ header input {
 
 #content-wrapper {
 	display: flex;
-	height: 92vh;
 }
 
 main {
 	background-color: lightblue;
 	width: 65vw;
 	padding: 20px;
+}
+
+main iframe {
+	width: 100%;
+	height: calc(65vw / (16/9));
 }
 
 aside {
