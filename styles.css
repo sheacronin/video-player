@@ -114,6 +114,7 @@ header input {
 
 #content-wrapper {
 	display: flex;
+	background-color: #f9f9f9;
 }
 
 main {
@@ -128,9 +129,70 @@ main iframe {
 }
 
 aside {
-	background-color: lightgreen;
 	width: 35vw;
 	padding: 20px;
+}
+
+.active.topic-btn {
+	background-color: #030303;
+	border: 1px solid #030303;
+	color: white;
+}
+
+.topic-btn {
+	border: 1px solid #d4d4d4;
+	border-radius: 20px;
+	padding: 8px 10px;
+	min-width: 50px;
+	font-size: 14px;
+	background-color: #ececec;
+}
+
+aside a {
+	text-decoration: none;
+	color: #7c7c7c;
+	font-size: 13px;
+}
+
+.video-link {
+	display: flex;
+	margin-top: 20px;
+}
+
+.thumbnail-container {
+	position: relative;
+	width: 168px;
+	height: 94px;
+	font-size: 14px;
+}
+
+.thumbnail {
+	width: 168px;
+	height: 94px;
+}
+
+.thumbnail-time {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: black;
+	color: white;
+	padding: 3px;
+	border-radius: 3px;
+	margin: 3px;
+}
+
+.video-link-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 5px 0 20px 10px;
+}
+
+.video-link h4 {
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
 }
 
 .icon-btn {
